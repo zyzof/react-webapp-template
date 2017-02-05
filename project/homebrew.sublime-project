@@ -1,0 +1,33 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"npm",
+				"run",
+				"build"
+			],
+			"name": "react-webapp-template",
+			"windows":
+			{
+				"shell": true
+			}
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".gitignore"
+			],
+			"folder_exclude_patterns":
+			[
+				"project",
+				"node_modules"
+			],
+			"path": "."
+		}
+	]
+}
